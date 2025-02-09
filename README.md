@@ -32,6 +32,7 @@ cd your-repository-directory
 ```
 
 ### Step 2: Install Dependencies
+```bash
 
 Install the required dependencies using Composer:
 
@@ -40,12 +41,16 @@ composer install
 
 ### Step 3: Configure Environment Variables
 
+```bash
 Create a `.env` file in the project root and set the following variables:
 
 and fire this command to add author
 
 php artisan symfony:author:add "John Doe"
 
-## Step 3: Run the Command to run the project
+```
+## Step 4: Run the Command to run the project
+```bash
 
 php artisan serve 
+```
